@@ -7,13 +7,14 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 
 .indicator-area {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 500px;
+  background: #202020;
 }
 
 .indicator {

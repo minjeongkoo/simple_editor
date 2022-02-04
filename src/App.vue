@@ -22,11 +22,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #fff;
+  color: #20262c;
 }
 
 body, #app {
-  background-color: #20262c;
+  background-color: #fafafa;
 }
 
 #nav {
@@ -35,7 +35,7 @@ body, #app {
 
 #nav a {
   font-weight: bold;
-  color: #fff;
+  color: #20262c;
   margin: 12px;
 }
 
