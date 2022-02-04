@@ -1,5 +1,24 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>SK Hynix VR App Indicator</h1>
+    <div class="indicator-area">
+      <img class="indicator" src="../assets/Indicator-gif.gif"/>
+    </div>
   </div>
 </template>
+
+<style>
+
+.indicator-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+.indicator {
+  width: 64px;
+  height: 64px;
+}
+
+</style>
