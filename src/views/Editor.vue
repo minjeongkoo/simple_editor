@@ -9,7 +9,7 @@
       <div class="top-section-control">
         <div>
 
-          <span>Document's Align </span>
+          <span>Document's Align</span>
           <button v-on:click="documentAlignSet('left')"><img alt="text-align-left" src="../assets/ico/format_align_left_black_24dp.svg"/></button>
           <button v-on:click="documentAlignSet('center')"><img alt="text-align-center" src="../assets/ico/format_align_center_black_24dp.svg"/></button>
           <button v-on:click="documentAlignSet('right')"><img alt="text-align-right" src="../assets/ico/format_align_right_black_24dp.svg"/></button>
@@ -105,6 +105,7 @@ textarea {
   border-radius: 0.6rem;
   font-family: 'Poppins', sans-serif;
   font-size: 1.6rem;
+  color: #fff;
   background: none;
   border: none;
   resize: none;
@@ -155,7 +156,7 @@ button:hover {
   top: 0;
   padding: 0.5rem 0rem;
   border-bottom: 1px solid rgba(69, 90, 100, 0.5);
-  border-radius: 2rem 2rem 0 0;
+  border-radius: 1rem 1rem 0 0;
   background: #fff;
 }
 

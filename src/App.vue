@@ -3,7 +3,7 @@
     <div id="nav">
       <router-link to="/">Home</router-link>
       <router-link to="/Editor">Text Editor</router-link>
-      <router-link to="/about">Database</router-link>
+      <router-link to="/about">Gif Testing</router-link>
     </div>
     <router-view/>
   </div>
@@ -22,11 +22,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #fff;
 }
 
 body, #app {
-  background-color: #fafafa;
+  background-color: #20262c;
 }
 
 #nav {
@@ -35,7 +35,7 @@ body, #app {
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #fff;
   margin: 12px;
 }
 
